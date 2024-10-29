@@ -1,0 +1,46 @@
+{
+  "name": "futto-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc -w",
+    "dev": "npx nodemon",
+    "build": "tsc",
+    "format": "prettier --write .",
+    "check-format": "prettier --check .",
+    "check-lint": "eslint .",
+    "check-types": "tsc --pretty --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gabrieljuninho/futto-api.git"
+  },
+  "author": "Gabriel Juninho Paulista",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrieljuninho/futto-api/issues"
+  },
+  "homepage": "https://github.com/gabrieljuninho/futto-api#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "eslint": "^9.13.0",
+    "globals": "^15.11.0",
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.12.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "moment": "^2.30.1",
+    "nodemon": "^3.1.7",
+    "pino": "^9.5.0",
+    "pino-pretty": "^11.3.0"
+  }
+}
